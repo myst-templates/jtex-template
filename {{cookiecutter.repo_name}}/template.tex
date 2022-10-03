@@ -1,0 +1,28 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copy in your template with your latex document!
+
+[# if options.draft #]
+\documentclass[draft]{article}
+[# else #]
+\documentclass{article}
+[# endif #]
+
+% You should have an imports section
+[- IMPORTS -]
+
+\begin{document}
+\title{[-doc.title-]}
+
+[# if parts.abstract #]
+\begin{abstract}
+[-parts.abstract-]
+\end{abstract}
+[# endif #]
+
+[-CONTENT-]
+
+[# if doc.bibliography #]
+\bibliography{[- doc.bibliography | join(", ") -]}
+[# endif #]
+
+\end{document}

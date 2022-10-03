@@ -1,0 +1,33 @@
+jtex: v1
+title: '{{cookiecutter.title}}'
+description: '{{cookiecutter.description}}'
+version: 1.0.0
+license: '{{cookiecutter.license}}'
+source: '{{cookiecutter.source}}'
+thumbnail: ./thumbnail.png
+authors:
+  - name: '{{cookiecutter.author_name}}'
+    website: '{{cookiecutter.author_website}}'
+    affiliations:
+      - '{{cookiecutter.author_affiliation}}'
+tags:
+  - paper
+parts:
+  - id: abstract
+    required: true
+    description: >
+      A good abstract will begin with a short description of the problem being
+      addressed, briefly describe the new data or analyses, then briefly states
+      the main conclusion(s) and how they are supported and uncertainties.
+doc:
+  - id: title
+    required: true
+  - id: bibliography
+options:
+  - type: boolean
+    id: draft
+    description: Mark the document as draft
+files:
+  - template.tex
+packages:
+  - amsmath
