@@ -1,5 +1,6 @@
 # Myst Template (jtex) - Cookiecutter
 
+Create a LaTeX template that works with MyST Markdown, [👉 full tutorial is here 👈](https://js.myst.tools/jtex/create-a-latex-template).
 This [cookiecutter](https://github.com/cookiecutter/cookiecutter) repository helps you get setup with creating a `jtex` template for working with MyST Markdown.
 
 ```bash
