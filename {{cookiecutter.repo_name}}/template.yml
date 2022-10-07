@@ -2,14 +2,14 @@ jtex: v1
 title: '{{cookiecutter.title}}'
 description: '{{cookiecutter.description}}'
 version: 1.0.0
-license: '{{cookiecutter.license}}'
+license: TODO
 source: '{{cookiecutter.source}}'
 thumbnail: ./thumbnail.png
 authors:
-  - name: '{{cookiecutter.author_name}}'
-    website: '{{cookiecutter.author_website}}'
+  - name: '{{cookiecutter.template_author_name}}'
+    website: '{{cookiecutter.template_website}}'
     affiliations:
-      - '{{cookiecutter.author_affiliation}}'
+      - '{{cookiecutter.template_affiliation}}'
 tags:
   - paper
 parts:

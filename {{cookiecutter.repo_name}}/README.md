@@ -4,8 +4,8 @@
 
 ![](thumbnail.png)
 
-- Author: {{cookiecutter.author_name}} ({{cookiecutter.author_affiliation}})
-- Author Website: {{cookiecutter.author_website}}
+- Author: {{cookiecutter.template_author_name}} ({{cookiecutter.template_affiliation}})
+- Author Website: {{cookiecutter.template_website}}
 - License: {{cookiecutter.license}}
 - [Submission Guidelines]({{cookiecutter.source}})
 

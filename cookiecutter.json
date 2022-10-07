@@ -2,9 +2,8 @@
   "title": "My Template",
   "description": "My official template for science!",
   "repo_name": "{{ cookiecutter.title.lower().replace(' ', '_').replace('-', '_') }}",
-  "license": ["MIT", "CC-BY-4.0"],
   "source": "https://example.com/author-guidelines/latex-submission",
-  "author_name": "Your Full Name",
-  "author_website": "https://example.com",
-  "author_affiliation": "Future of Science Publishing"
+  "template_author_name": "Template Author Name",
+  "template_website": "https://example.com",
+  "template_affiliation": "Future of Science Publishing"
 }
