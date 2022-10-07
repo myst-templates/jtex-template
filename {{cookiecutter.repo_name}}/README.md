@@ -6,7 +6,6 @@
 
 - Author: {{cookiecutter.template_author_name}} ({{cookiecutter.template_affiliation}})
 - Author Website: {{cookiecutter.template_website}}
-- License: {{cookiecutter.license}}
 - [Submission Guidelines]({{cookiecutter.source}})
 
 ## Steps to creating your own template!
